@@ -9,7 +9,7 @@ from vk_api.utils import get_random_id
 
 def Update_vk(): 
     try: 
-        vk_session = vk_api.VkApi('89960214009', 'Vx20192020')
+        vk_session = vk_api.VkApi('Логин', 'Пароль')
         vk_session.app_id = 	6686766;
         vk_session.auth() 
         vk = vk_session.get_api() 
